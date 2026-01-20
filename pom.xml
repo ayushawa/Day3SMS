@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>Day3MS</artifactId>
+    <artifactId>Day3SMS</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Day3MS</name>
-    <description>Day3MS</description>
+    <name>Day3SMS</name>
+    <description>Day3SMS</description>
     <url/>
     <licenses>
         <license/>
@@ -45,6 +45,11 @@
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
